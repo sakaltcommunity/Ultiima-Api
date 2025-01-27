@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 app = FastAPI()
 
-MODEL_NAME = "Sakalti/ultiima-78B"
+MODEL_NAME = "Sakalti/Lunar-4B"
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
